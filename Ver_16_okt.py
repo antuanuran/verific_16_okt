@@ -304,7 +304,7 @@ def main():
             print("Good bye")
             break
 
-
+#Основная рабочая функция
 main()
 
 
