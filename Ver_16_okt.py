@@ -276,7 +276,7 @@ def add_doc():
 
 def main():
     while True:
-        inp_function = input("\nВведите название функции (\np  \ns  \nl  \na \nsep  \ncook \nid \nиное значение - выход из программы) : ").lower()
+        inp_function = input("\nВведите название функции (\np  \ns  \nl  \na \nsep - функция разделения  \ncook - кулинарная книга \nid - уникальные значения\nиное значение - выход из программы) : ").lower()
 
         if (inp_function == 'p'):
             number_name()
